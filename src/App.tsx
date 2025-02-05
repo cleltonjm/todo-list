@@ -8,9 +8,14 @@ export default function App() {
   return (
     <>
       <Header />
-      <Input />
-      <Button />
-      <Checkbox />
+      <div className="form">
+        <Input />
+        <Button />
+      </div>
+      <div className="content">
+        <Checkbox />
+      </div>
+      
     </>
   )
 }
