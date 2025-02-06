@@ -1,10 +1,10 @@
-import styles from './Checkbox.module.css'
+import './Checkbox.module.css'
 
 export default function Checkbox() {
     return (
         <>
-            <span>Tarefas criadas</span>
-            <span>Concluídas</span>
+            <p>Tarefas criadas</p>
+            <p>Concluídas</p>
         </>
     )
 }

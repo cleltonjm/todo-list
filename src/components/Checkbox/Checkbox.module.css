@@ -1,3 +1,4 @@
-.span {
+p {
     color: var(--blue);
+    font-weight: bold;
 }
