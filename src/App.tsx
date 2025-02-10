@@ -21,6 +21,9 @@ export default function App() {
         <div className={styles.tasksList}>
           <ListHeader />
         </div>
+        <div className={styles.Empty}>
+          <Empty />
+        </div>
       </section>
     </main>
   )
