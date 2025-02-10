@@ -1,18 +1,37 @@
 .container {
-    padding: 4rem 1rem;
-  
-    border-top: 1px solid var(--gray-400);
-    border-radius: 8px;
-  
     display: flex;
-    flex-direction: column;
+    flex: 1;
+  
     align-items: center;
-    gap: 1rem;
+    justify-content: space-between;
+  }
   
-    color: var(--gray-300);
-}
-  
-.container p {
+  .container aside {
     display: flex;
-    flex-direction: column;
-}
+    align-items: center;
+    gap: 0.5rem;
+  
+    font-weight: bold;
+  }
+  
+  .container aside:first-child {
+    color: var(--blue);
+  }
+  
+  .container aside:last-child {
+    color: var(--purple);
+  }
+  
+  .container aside p {
+    font-size: 0.875rem;
+  }
+  
+  .container aside span {
+    padding: 2px 8px;
+    border-radius: 16px;
+  
+    font-size: 0.75rem;
+  
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+  }
